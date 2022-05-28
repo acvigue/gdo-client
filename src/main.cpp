@@ -14,7 +14,7 @@ void setup ()
 }  // end of setup
 
 void sendManchester() {
-  for(int i = 0; i <= 16; i++) {
+  for(int i = 0; i <= 40; i++) {
     for(int i = 0; i < outgoingManchesterPos; i++) {
       bool d = outgoingManchester[i];
       digitalWrite(TX_PIN, d);
